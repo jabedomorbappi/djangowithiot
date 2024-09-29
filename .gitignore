@@ -1,0 +1,40 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Django
+*.log
+db.sqlite3
+/media/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore all files in media except images
+media/*
+!media/images/
